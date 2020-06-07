@@ -2,8 +2,10 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const config = require('config');
-
+const cors = require('cors')
 const app = express();
+app.use(bodyParser.json());
+app.use(cors());
 
 app.use(express.json());
 
