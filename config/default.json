@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://anand:anand123@cluster0-o3iwl.mongodb.net/test",
-    "jwtSecret": "12345-67890-09876-54321"
+    "mongoURI": "",
+    "jwtSecret": ""
 }
