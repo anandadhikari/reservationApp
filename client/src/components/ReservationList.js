@@ -6,7 +6,6 @@ import { connect } from 'react-redux';
 import { getReservation, deleteReservation } from '../actions/reservationActions';
 import PropTypes from 'prop-types';
 
-import {Redirect } from "react-router-dom";
 
 
 class ReservationList extends Component {
@@ -68,7 +67,7 @@ class ReservationList extends Component {
                     </ListGroup>
                 </Container>
                  :
-                 <Redirect from="*" to="/" />
+                 null
                     
                 }
             </div>
